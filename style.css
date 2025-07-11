@@ -211,3 +211,62 @@ body {
   border-radius: 48px;
   margin-bottom: 71px;
 }
+
+/* contact-section */
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 92px;
+}
+.contact-section h3 {
+  font-size: 97px;
+  font-weight: bold;
+
+  width: 528px;
+  height: 232px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 490px;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: start;
+  margin-left: 0;
+}
+.contact-form input,
+textarea {
+  width: 497px;
+  height: 70px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: #ffff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+  font-size: 20px;
+  padding-left: 32px;
+}
+
+textarea {
+  resize: vertical;
+  height: 135px;
+}
+
+.contact-form button {
+  width: 497px;
+  height: 62px;
+  border-radius: 10px;
+}
