@@ -178,3 +178,36 @@ body {
 .feedback-card-user-info {
   margin-left: 12px;
 }
+
+/* Ready to focus better section */
+.ready-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 137px;
+  background-color: #ffff;
+}
+.ready-section h3 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 71px;
+}
+
+.ready-section p {
+  /* font-size: 24px; */
+  margin-top: 20px;
+}
+.ready-btn {
+  width: 195px;
+  height: 48px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.ready-image {
+  width: 840px;
+  height: 364px;
+  margin-top: 20px;
+  border-radius: 48px;
+  margin-bottom: 71px;
+}
