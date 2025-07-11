@@ -1,5 +1,5 @@
 * {
-  font-family: inter, sans-serif;
+  font-family: Raleway, sans-serif;
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -26,7 +26,7 @@ body {
 /* header section  */
 .nav-logo {
   margin: 0 0;
-  font-weight: bold          ;
+  font-weight: bold;
   font-size: 34px;
 }
 
@@ -50,4 +50,22 @@ body {
 }
 .nav-button p {
   font-size: 16px;
+}
+
+/* hero section  */
+.hero {
+  width: 905px;
+  height: 237px;
+  text-align: center;
+  margin-top: 158px;
+}
+.hero-title {
+  font-size: 65px;
+  font-weight: bold;
+}
+.hero-btn {
+  width: 174px;
+  height: 48px;
+  border-radius: 10px;
+  margin-top: 37px;
 }
